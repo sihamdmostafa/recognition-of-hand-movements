@@ -1,8 +1,8 @@
 import cv2 
 import numpy as np 
 import imutils 
-from detecteur_mouvement import DetecteurMouvement
-from descriteur_geste import DetecteurGeste
+from recogntion_mouvement import DetecteurMouvement
+from gesture_descriptor import DetecteurGeste
         
 
 md=DetecteurMouvement()
